@@ -31,13 +31,13 @@ Data_Type = [String, Integer, Float, Bytes, List, Tuple, Set, Frozen_set, Dict]
 for i in Data_Type:
     print(i, type(i))
 
-# Создать 2 переменные String, создать переменную в которой конкантенируете эти переменные. Вывести в консоль.
+# 11) Создать 2 переменные String, создать переменную в которой конкантенируете эти переменные. Вывести в консоль.
 
 name = 'Nikol '
 surname = 'Kidman'
 actress = name + surname
 print(actress)
 
-
+# 12) Вывести в одну строку переменные типа String и Integer используя “,” 13) Вывести в одну строку переменные типа String и Integer используя “+” 
 print(String, Integer, sep=', ')
 print(String, Integer, sep=' + ')
